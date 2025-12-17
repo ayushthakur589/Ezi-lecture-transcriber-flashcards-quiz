@@ -171,6 +171,6 @@ The Gemini Live API is activated **when the user clicks the microphone button** 
 |-------|----------|
 | **"RapidAPI configuration missing"** | Ensure `RAPID_API_KEY` and `RAPID_API_HOST` are set in `.env.local`, then restart the dev server |
 | **Microphone not working** | Ensure you are served over `localhost` or `https`. Browsers block microphone access on insecure `http` origins |
-| **AI Content failing** | Check the browser console. Usually due to an invalid/expired `API_KEY` or free-tier rate limits |
+| **AI Content failing** | Check the browser console. Usually due to an invalid/expired `GEMINI_API_KEY` or free-tier rate limits |
 | **YouTube Import Error** | Verify the video has captions enabled and your RapidAPI credentials are correct |
 | **Changes to .env.local not working** | Restart the dev server (`npm run dev`) after modifying environment variables |
